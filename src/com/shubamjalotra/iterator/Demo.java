@@ -1,7 +1,7 @@
 package com.shubamjalotra.iterator;
 
 public class Demo {
-  public static void show() {
+  public static void main(String[] args) {
     var collection = new ProductCollection();
     collection.add(new Product(1, "a"));
     collection.add(new Product(2, "b"));
